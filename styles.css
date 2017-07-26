@@ -1,2 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+
 body{
-font-family: 'Open Sans', sans-serif; }
+font-family: 'Open Sans', sans-serif;
+font-size:14px;
+height:100vh;
+padding:4%;
+}
+
+h1{
+font-size:3.5em;
+font-weight:800;
+}
+
+nav{
+width:100%;
+margin:auto;
+position:relative;
+margin-bottom:1%;
+text-align:right;
+overflow: hidden;
+height:10vh;
+}
+
+nav ul{
+list-style-type: none;
+float:right;
+}
+
+nav ul li{
+float:right;
+margin-left:3%;
+}
+
+nav ul li a{
+text-decoration: none;
+color:#000;
+}
+
+nav ul li a:hover{
+font-weight:600;
+}
+
+section{
+width:100%;
+position:relative;
+margin:auto;
+text-align:right;
+padding-right:2%;
+height:70vh;
+}
+
+section p{
+text-align:justify;
+float:right;
+width:30%;
+margin-bottom:6%;
+}
+
+footer{
+clear:both;
+width:100%;
+position:relative;
+text-align:center;
+height:10vh;
+}
+
+#contact{
+clear:both;
+float:right;
+background-color:#000;
+border:1px solid#000;
+color:#fff;
+padding:8px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+font-size:1.02em;
+margin-bottom:15px;
+text-decoration:none;
+}
+
+#contact:hover{
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(66,63,66,0.48);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(66,63,66,0.48);
+  box-shadow: 1px 1px 3px 1px rgba(66,63,66,0.48);
+}
+
+article{
+  text-align:justify;
+  float:right;
+  width:53%;
+  margin-bottom:6%;
+}
+
+article p{
+  text-align:justify;
+  float:right;
+  width:100%;
+  margin-bottom:1.5%;
+
+}
+
+@media (max-width: 720px) {
+  section p{
+  text-align:justify;
+  float:right;
+  width:100%;
+  }
+
+  article{
+    text-align:justify;
+    float:right;
+    width:100%;
+    margin-bottom:6%;
+  }
+}
